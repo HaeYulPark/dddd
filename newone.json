@@ -1,0 +1,135 @@
+[
+  {
+    "id": "Container-1764675900868",
+    "name": "Container1",
+    "type": "Container",
+    "position": {
+      "x": 7,
+      "y": 11
+    },
+    "props": {},
+    "size": {
+      "width": 424,
+      "height": 495
+    },
+    "styles": {
+      "backgroundColor": "rgba(55, 65, 81, 0.5)",
+      "borderColor": "#4b5563",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "color": "#ffffff"
+    },
+    "description": "",
+    "isLocked": true
+  },
+  {
+    "id": "Icon-1764676958963",
+    "name": "Icon1",
+    "type": "Icon",
+    "position": {
+      "x": 22,
+      "y": 83
+    },
+    "props": {
+      "icon": "UserIcon"
+    },
+    "size": {
+      "width": 108,
+      "height": 141
+    },
+    "styles": {
+      "color": "#9ca3af"
+    },
+    "description": "",
+    "isLocked": false
+  },
+  {
+    "id": "Button-1764677072202",
+    "name": "Button1",
+    "type": "Button",
+    "position": {
+      "x": 108,
+      "y": 28
+    },
+    "props": {
+      "text": "집콕 퀘스트!",
+      "kind": "text",
+      "icon": null
+    },
+    "size": {
+      "width": 233,
+      "height": 42
+    },
+    "styles": {
+      "backgroundColor": "#2563eb",
+      "borderColor": "#6b7280",
+      "borderWidth": 0,
+      "borderRadius": 6,
+      "color": "#ffffff",
+      "fontSize": 14,
+      "fontWeight": 600
+    },
+    "description": "버튼을 누르면 오늘의 퀘스트를 제공",
+    "isLocked": false
+  },
+  {
+    "id": "Accordion-1764677246951",
+    "name": "Accordion1",
+    "type": "Accordion",
+    "position": {
+      "x": 23,
+      "y": 235
+    },
+    "props": {
+      "items": [
+        {
+          "title": "난이도 1",
+          "content": "일어나서 씻기!"
+        },
+        {
+          "title": "난이도 2",
+          "content": "핸드폰없이 30분이상 산책하기!"
+        },
+        {
+          "title": "난이도 3",
+          "content": "산책 중에 초면인 사람 3명과 가벼운 인사하기!"
+        }
+      ],
+      "openItem": null
+    },
+    "size": {
+      "width": 375,
+      "height": 239
+    },
+    "styles": {
+      "backgroundColor": "#1f2937",
+      "borderColor": "#374151",
+      "borderWidth": 1,
+      "borderRadius": 6,
+      "color": "#ffffff"
+    },
+    "description": "없어져있는 상태에서 집콕 퀘스트!를 누르면 나타나서 실행할 수 있도록 설정한다.",
+    "isLocked": false
+  },
+  {
+    "id": "Alert-1764677412215",
+    "name": "Alert1",
+    "type": "Alert",
+    "position": {
+      "x": 31,
+      "y": 403
+    },
+    "props": {
+      "text": "시행하지못하면 내일 퀘스트에 추가됩니다.",
+      "type": "warning",
+      "dismissible": true
+    },
+    "size": {
+      "width": 190,
+      "height": 41
+    },
+    "styles": {},
+    "description": "",
+    "isLocked": false
+  }
+]
